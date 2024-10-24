@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy D&D Website</title>
+    <link rel="stylesheet" href="trialproj.css">
+    <script src="trialproj.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the World of Dungeons & Dragons</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About D&D</h2>
+        <p>Dungeons & Dragons is a fantasy tabletop role-playing game where players embark on adventures.</p>
+    </section>
+
+    <section id="classes">
+        <h2>Character Classes</h2>
+        <div class="class-card">
+            <h3>Warrior</h3>
+            <p>A strong and durable fighter.</p>
+            <button onclick="showDetails('Warrior')">Learn More</button>
+        </div>
+        <div class="class-card">
+            <h3>Wizard</h3>
+            <p>A master of arcane magic.</p>
+            <button onclick="showDetails('Wizard')">Learn More</button>
+        </div>
+        <div class="class-card">
+            <h3>Rogue</h3>
+            <p>A stealthy and agile character.</p>
+            <button onclick="showDetails('Rogue')">Learn More</button>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@dnddummy.com</p>
+    </footer>
+</body>
+</html>
